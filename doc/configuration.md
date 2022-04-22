@@ -1,6 +1,6 @@
 # RandomX configuration
 
-RandomX has 45 customizable parameters (see table below). We recommend each project using RandomX to select a unique configuration to prevent network attacks from hashpower rental services.
+RandomX has 45 customizable parameters (see table below). We recommend each project using RandomX to select a unique configuration to prevent network attacks from hashpower rental services. Selecting a unique `RANDOMX_ARGON_SALT` is perhaps the easiest way to mitigate work sharing across networks, but other parameters can additionally change performance & hardware requirements for a given implementation.
 
 These parameters can be modified in source file [configuration.h](../src/configuration.h).
 
